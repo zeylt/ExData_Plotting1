@@ -1,8 +1,6 @@
 setwd("~/Dropbox/CourseraWork/ExploratoryDataAnalysis/ExData_Plotting1")
 
 # Load data into a data frame
-full_power <- read.delim('household_power_consumption.txt',header=TRUE,sep=";")
-
 full_power <- read.delim('household_power_consumption.txt',header=TRUE,sep=";",
                          colClasses='character')
 
